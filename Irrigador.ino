@@ -20,6 +20,8 @@ void loop() {
   lcd.print(porcento); 
   lcd.print("%");
 
+  //é invertido a leitura da porcentagem da umidade conforme abaixo:
+
   if (porcento >= 45) {  // Se a porcentagem for maior ou igual a 45
     Serial.println("Irrigando a planta...");  // aparece a frase no monitor serial
     lcd.setCursor(0,1);  // bota pra a segunda linha do display
