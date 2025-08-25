@@ -38,3 +38,6 @@ void loop() {
   }
   delay(3000);  // verifica a cada 30 segundos
 }
+
+//criado por lucas travassos 2023
+
